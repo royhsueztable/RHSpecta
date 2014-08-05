@@ -26,4 +26,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (BOOL)loginWithEmail:(NSString *)email andPassword:(NSString *)password
+{
+    // Check email and password are not empty.
+    if (email && email.length > 0 && password && password.length > 0) {
+        return YES;
+    } else {
+        return NO;
+    }
+}
+
 @end

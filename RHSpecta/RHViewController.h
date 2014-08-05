@@ -10,4 +10,6 @@
 
 @interface RHViewController : UIViewController
 
+- (BOOL)loginWithEmail:(NSString *)email andPassword:(NSString *)password;
+
 @end
